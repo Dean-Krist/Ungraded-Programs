@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+
+    int first, second, third, fourth ,Total;
+
+    printf ("Enter 1st Number: ");
+    scanf("%d",&first);
+
+    printf ("Enter 2nd Number: ");
+    scanf("%d",&second);
+
+    printf ("Enter 3rd Number: ");
+    scanf("%d",&third);
+
+    printf ("Enter 4th Number: ");
+    scanf("%d",&fourth);
+
+    Total = first + fourth;
+
+    printf("\nThe Sum of the First and the Last Number is %d\n", Total);
+
+    return 0;
+}
+
