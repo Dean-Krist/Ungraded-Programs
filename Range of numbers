@@ -1,0 +1,57 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c, d;
+
+    printf("Enter any number: ");
+    scanf("%d", &a);
+
+    b = a;
+
+
+    if (a < 10)
+        {
+            printf("%d is between 0 and 10", a);
+        }
+
+    else if (b < 1000)
+        {
+            if (b >= 10)
+                {
+                    b = b / 10;
+                }
+        c = b * 10;
+
+        d = c + 10;
+
+            if (a = c)
+                {
+                    c = c - 10;
+                }
+
+        printf("%d is between %d and %d", a, c, d);
+        }
+
+    else if (b > 100)
+        {
+            if (b >= 100)
+                {
+                    b = b / 10;
+                }
+        c = b * 10;
+
+        d = c + 10;
+
+            if (a = c)
+                {
+                    c = c - 10;
+                }
+
+
+        printf("%d is between %d and %d", a, c, d);
+        }
+
+
+    return 0;
+}
