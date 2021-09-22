@@ -8,7 +8,7 @@ using namespace std;
 
         cout << "The Rotation of " << num1 << " per second is " << answer << endl;
 
-
+	    	system("PAUSE");
 
         return 0;
     }
